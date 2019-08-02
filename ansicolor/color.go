@@ -21,7 +21,7 @@ type ColorText struct {
 	Text      string
 }
 
-func (r *ColorText) String() {
+func (r *ColorText) String() string {
 	if r.TextColor == ColorNone {
 		return r.Text
 	}
