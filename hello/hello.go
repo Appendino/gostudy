@@ -1,4 +1,4 @@
-package gostudy
+package hello
 
 import "fmt"
 
